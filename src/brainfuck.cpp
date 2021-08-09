@@ -94,12 +94,15 @@ namespace brainfuck {
                         i--;
                     }
                 }
-            } else if(c == ' ') {
+            } else if (c == ' ') {
                 continue;
             } else {
+                delete[] tab;
                 throw bad_character();
             }
         }
+
+        delete[] tab;
     }
 
     const char *
