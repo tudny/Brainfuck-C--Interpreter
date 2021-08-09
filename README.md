@@ -16,4 +16,4 @@ make
 ```
 
 ## Adding to existing project
-Just copy brainfuck.{cpp,h} to your project.
+Just copy `brainfuck.{cpp,h}` to your project.
