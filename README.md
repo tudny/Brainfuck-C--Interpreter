@@ -1,4 +1,4 @@
-# BrainFuck_Interpreter
+# Brainfuck C++ Interpreter (with CMake example project)
 
 ## Running test program
 ```
